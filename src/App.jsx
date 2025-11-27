@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     (async () => {
-      const res = await axios.get('VITE_APP_PATH')
+      const res = await axios.get(VITE_APP_PATH)
       console.log(res);
       openModal()
 
